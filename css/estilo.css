@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f9f1ff;
+}
+/* NAV */
+.logo{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 5px 20px;
+}
+.colornav{
+    background-color: #f9f1ff;
+}
+
+/* MAIN */
+.carousel-inner{
+    height: 500px;
+    width: auto;
+    margin: 15px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.contenedorcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+.contenedorcard .card{
+    margin: 10px;
+}
+.card-title{
+    text-align: center;
+}
+.colorlila{
+    background-color: #C8B7D6;
+}
+.colorlila:hover{
+   border: solid #C8B7D6 2px;
+}
+.contenedorcardex{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contenedorcardex .card{
+    margin-right: 5x;
+    margin-bottom: 30px;
+}
+.h1center{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+}
+.accordion{
+    margin: 20px;
+}
+.formcont{
+    margin: 10px;
+    margin-bottom: 50px;
+}
+.contenedoralbum{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.calbum{
+    border: #C8B7D6 solid 2px;
+}
+/* FOOTER */
+.ulfooter{
+    background-color: #C8B7D6;
+    padding: 10px;
+    text-align: center;
+}
